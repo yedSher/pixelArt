@@ -20,21 +20,29 @@ table,
 tr,
 td {
     border: 1px solid black;
+	 
 }
 
 table {
     border-collapse: collapse;
     margin: 0 auto;
+	padding-bottom: 0px;
 }
 
 tr {
-    height: 20px;
+    height: 0px;
+	 padding-bottom: 0px;
 }
 
 td {
     width: 20px;
+	 padding-bottom: 0px;
 }
 
 input[type=number] {
     width: 6em;
+}
+.uColor {
+ padding-bottom: 0px;	
+ background-color: blue;
 }
